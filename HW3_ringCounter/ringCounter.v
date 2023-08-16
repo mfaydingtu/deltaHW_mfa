@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module ringCounter(clk, rst, count);//johnsonCounter modülünün tanımlanması
+module ringCounter(clk, rst, count);//ringCounter modülünün tanımlanması
   parameter WIDTH = 4;// johnson counter boyutu için parametre. ölçeklendirilebilirlik sağlıyor
   
   input wire clk, rst;
